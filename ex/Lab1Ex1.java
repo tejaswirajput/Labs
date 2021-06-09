@@ -1,29 +1,28 @@
 package com.lab.ex;
 
-import java.util.Scanner;
+	import java.util.Scanner;
 
-public class Lab1Ex1 {
-	public static void main(String[] args) {
-
-		// Accept User Input in variable num
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Please Enter an interger - ");
-		int num = sc.nextInt();
-		sc.close();
-
-		/// declare variables rem and sum
-		int rem, sum = 0;
-
-		/// Loop over a number
-		while (num > 0) {
-			rem = num % 10;
-			sum = sum + (rem * rem * rem);
-			num = num / 10;
+	public class Lab1Ex1 {
+		
+		public static void main(String[] args) {
+			
+	        Scanner sc =  new Scanner(System.in);
+			
+			System.out.println("please enter an integer -");
+			int num = sc.nextInt();
+			sc.close();
+			
+			int rem,sum=0;
+			
+			while(num>0) {
+				rem = num%10;
+				sum = sum+(rem*rem*rem);
+				num = num/10;
+			}
+			System.out.println("Cube is  " + sum);
+			//System.out.println(sum);
 		}
 
-		// Print Sum of cubes of digit in a number
-		System.out.println(sum);
-		System.out.println("Thank You-");
 	}
 
-}
+
