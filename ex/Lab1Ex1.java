@@ -21,7 +21,7 @@ public class Lab1Ex1 {
 		}
 
 		// Print Sum of cubes of digit in a number
-		//System.out.println(sum);
+		System.out.println(sum);
 	}
 
 }
