@@ -9,6 +9,7 @@ public class Lab1Ex1 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please Enter an interger - ");
 		int num = sc.nextInt();
+		sc.close();
 
 		/// declare variables rem and sum
 		int rem, sum = 0;
@@ -22,6 +23,7 @@ public class Lab1Ex1 {
 
 		// Print Sum of cubes of digit in a number
 		System.out.println(sum);
+		System.out.println("Thank You-");
 	}
 
 }
