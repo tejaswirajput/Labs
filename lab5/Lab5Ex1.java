@@ -16,7 +16,7 @@ public class Lab5Ex1 {
 			throw new MyException("Age of person should be greater than 15 ...");
 		}
 		else {
-			System.out.println("You are welcomed ");
+			System.out.println("Welcomed... ");
 		}
 	}
 	public static void main(String[] args) {
